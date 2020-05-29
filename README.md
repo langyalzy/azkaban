@@ -2,6 +2,10 @@
 
 [![Join the chat at https://gitter.im/azkaban-workflow-engine/Lobby](https://badges.gitter.im/azkaban-workflow-engine/Lobby.svg)](https://gitter.im/azkaban-workflow-engine/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+增加了调度管理的分页和条件查询功能
+涉及到的修改包括：common、web-server模块
+
+
 ## Building Azkaban
 Azkaban builds use Gradle and requires Java 8 or higher.
 
