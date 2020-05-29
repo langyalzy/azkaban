@@ -4,5 +4,8 @@ CREATE TABLE triggers (
 	modify_time BIGINT NOT NULL,
 	enc_type TINYINT,
 	data LONGBLOB,
+	project_name varchar(255),
+	project_flow_name varchar(255),
+	cron_expression varchar(255),
 	PRIMARY KEY (trigger_id)
 );
